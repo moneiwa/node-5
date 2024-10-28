@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    gap: 4px;
+    margin: 20px auto;
+}
+
+.card {
+    margin-left: 455px;
+    width: 100px;
+    height: 50px;
+    background-color: #c7237d9d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card.flipped {
+    background-color: #fff;
+}
+
+#submitBtn{
+   padding: 8px;
+   background-color: rgb(202, 194, 194);
+   border-radius: 10%;
+}
+
+#resetBtn{
+    padding: 8px;
+    background-color: rgb(202, 194, 194);
+    border-radius: 10%;
+}
